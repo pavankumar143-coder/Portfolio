@@ -1,7 +1,7 @@
 
 **Pavan Kumar Tule - Certified Ethical Hacker | Penetration Tester at Hackerbook**
 
-Pavan Kumar Tule is a **Certified Ethical Hacker (CEH)** and **Penetration Tester** with a deep foundation in **Vulnerability Assessment and Penetration Testing (VAPT)**. Currently, serving as a Penetration Tester at **Hackerbook**, Pavan specializes in identifying, assessing, and mitigating security vulnerabilities across complex systems and networks. His role extends to **Security Information and Event Management (SIEM)**, leveraging data-driven insights to proactively detect and respond to emerging threats.
+Pavan Kumar Tule is a **Certified Ethical Hacker (CEH)** and **Penetration Tester** with a deep foundation in **Vulnerability Assessment and Penetration Testing (VAPT)**. Currently, serving as a Penetration Tester at **Hackerbook**, My specializes in identifying, assessing, and mitigating security vulnerabilities across complex systems and networks. His role extends to **Security Information and Event Management (SIEM)**, leveraging data-driven insights to proactively detect and respond to emerging threats.
 
 In addition to My professional work, I am actively engages in **bug bounty hunting**, applying advanced exploitation techniques to uncover critical vulnerabilities in real-world applications. My experience spans multiple domains, including web applications, networks, and cloud environments, with a consistent goal of enhancing security posture and minimizing organizational risk exposure.
 
