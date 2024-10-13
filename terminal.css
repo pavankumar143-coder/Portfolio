@@ -1,0 +1,144 @@
+/* Terminal Styling */
+.terminal {
+    background-color: black;
+    color: #00FF00;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 15px;
+    width: 380px;
+    height: 350px;
+    overflow-y: auto;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    border: 1px solid #00FF00;
+    border-radius: 5px;
+    z-index: 1000;
+  }
+  
+  #terminal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 5px;
+    border-bottom: 1px solid #00FF00;
+  }
+  
+  #minimize-terminal {
+    background: none;
+    border: none;
+    color: #00FF00;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  .terminal.minimized {
+    height: 30px;
+    overflow: hidden;
+    transition: height 0.3s ease;
+  }
+  
+  .terminal-input {
+    display: flex;
+    align-items: center;
+  }
+  
+  .terminal-input span {
+    margin-right: 10px;
+  }
+  
+  #terminal-input-field {
+    background: transparent;
+    border: none;
+    color: #00FF00;
+    width: 100%;
+    outline: none;
+  }
+  
+  
+  
+@media screen and (max-width: 768px) {
+    .terminal {
+        width: 250px;
+        height: 150px;
+        bottom: 10px;
+        right: 10px;
+    }
+}
+  
+
+.popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1001;
+  }
+  
+  .popup-content {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    color: black;
+    max-width: 400px;
+    width: 80%;
+  }
+  
+  #close-popup {
+    margin-top: 10px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #00FF00;
+    color: black;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  /*bio */
+
+  /* Popup styling */
+.whoareu-popup {
+    display: none; /* Hidden by default */
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 800px;
+    z-index: 1001;
+    color: #00FF00;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  .whoareu-content {
+    display: flex;
+    align-items: flex-start;
+  }
+  
+  .whoareu-photo {
+    max-width: 250px;
+    margin-right: 20px;
+    border-radius: 8px;
+  }
+  
+  .whoareu-bio {
+    max-width: 600px;
+    line-height: 1.6;
+    text-align:center;
+    word-wrap:inherit;
+    white-space: pre-wrap;
+  }
+  
+  .whoareu-popup-active {
+    display: block; /* Make visible when active */
+  }
+  
